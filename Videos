@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mery Merco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9; /* Fond gris clair */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #530c79; /* Rouge YouTube */
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #FFFFFF; /* Texte blanc */
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: calc(100% - 100px);
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #8b13cb; /* Bleu YouTube */
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .search-bar button:hover {
+            background-color: #610d8e; /* Bleu plus foncé au survol */
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .video {
+            background-color: #FFFFFF;
+            padding: 05px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .video:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .video h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .video p {
+            margin-bottom: 0;
+            color: #666;
+        }
+        .category-dropdown,
+        .subcategory-dropdown {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .category-dropdown select,
+        .subcategory-dropdown select {
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .category-dropdown select option,
+        .subcategory-dropdown select option {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mery Merco</h1>
+
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Rechercher des vidéos...">
+            <button id="search-button"><i class="fas fa-search"></i> Rechercher</button>
+        </div>
+
+
+        <div class="category-dropdown">
+            <select id="category-select">
+                <option value="all">Toutes les catégories</option>
+                <option value="lesbian">Lesbian</option>
+                <option value="translesbian">Translesbian</option>
+                <option value="Solo">Solo</option>
+            </select>
+        </div>
+        <div class="subcategory-dropdown">
+            <select id="subcategory-select">
+                <option value="all">Toutes les sous-catégories</option>
+                <option value="blonde">Blonde</option>
+                <option value="brunette">Brune</option>
+                <option value="redhead">Redhead</option>
+                <option value="ponytail">Ponytail</option>
+                <option value="bun">Bun</option>
+                <option value="strapon">Strapon</option>
+
+            </select>
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="videos">
+
+
+            <div class="video all lesbian ponytail blonde brunette "> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Stunning Babe Leah Gotti Watches Her Roommate Nicole Doshi</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/6d443a17-4dff-4d39-9a53-7042a6cec780/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde "> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans On Trans Raw Anal Date - Ariel Demure, Eva Maxim</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/bbfad4d2-f858-477c-897e-e6479331bb93/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead ponytail strapon"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Arian Joy and redhead lesbian strapon sex</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/07fd1c82-0723-44e0-bbe9-0399ca446616/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>SLAYED Alina brune And Ryan brune Go Head To Head</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/0d268eff-b144-4858-8af1-bc3923d9b374/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian brunette ponytail strapon"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Veronica Avluv ties up and strapon fucks privileged teen</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/9584689a-094f-4042-95a8-b6cc135584bb/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans Bestie Blonde Offers A Trans Babe brune A Good Time</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/0d2e0c85-70cb-4453-ab8c-5769dc964fb2/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde bun"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Oopsie Blond Bun with Trans lesbian</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/3f29ec22-7c25-46a1-be15-44d2c9d43dc4/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde ponytail redhead"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Slayed avec Vanna Bardot Redhead et blonde avec ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/9469fbb0-19e1-47c0-82b1-8c1a2961420a/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde ponytail redhead"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Twistys avec blonde ponytail et Redhead </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/5c447b46-5d72-4b6c-b517-8665e723c37d/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde strapon"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Blonde avec pigtails et strapon </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/55de1333-c911-4d4a-9ae5-9bf5b5df8278/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde strapon"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Strapon Blonde and Black </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/439de35e-08b5-4bcf-8d41-997581430359/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian bun blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Massage Room avec Bun 1 </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/d6f78aed-1289-495a-a479-31b6015e72c8/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian bun blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Massage Room avec Bun 2 </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/367e5a40-480e-4907-a63e-3624f61bda4f/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian bun blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Scissors Lesbian blonde Bun</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/32a83c4f-d781-44b0-9f20-db24188535a6/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Brown and Blonde</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/a4b4d413-38fc-4be7-a71f-42ef2bae9b56/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Scissors Redhead BrownWhite</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/27fe5b3e-f95f-46c3-8562-2fe74705412f/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian ponytail redhead blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>FitnessRoom Redhead ponytail and blonde Pigtails</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/f41e84c7-e7fb-41ca-aaea-9dfb0d286f72/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Erties Lesbian black and blonde ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/c645b4a1-06d9-44ad-bfc5-97c53b4209a1/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian blonde brunette ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Threesome blonde Brown ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/f5277531-15ca-46ad-9981-e99bdb177f51/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>all girls massage Redhead ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/117cf84d-22f4-404f-91a8-3a5febf47f37/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Slayed Jennie makes bestie Queenie black ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/4deb9c0a-842c-4a06-b872-4a553dba5807/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead blonde ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Jayden Cole blonde & Xandra Sixx Redhead ponytail Challenge Each Other</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/0129e74b-e9e5-44e1-aff4-be8b4a1fb7d5/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead bun"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Naturally Stacked Redhead Lauren Phillips</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/ad91a6ca-fcec-4e8d-a358-8f0e23afca1a/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all lesbian redhead brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Lusty Redhead Milf Enjoys Licking And Eating Brown</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/2111fc08-5e23-4a2b-8c9a-2dbd08c8b20a/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+             <div class="video all lesbian blonde brunette ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Abella Danger blonde & Naomi Swann brown ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/d63fa189-1ccd-47e9-801b-afbaf80a6997/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+             <div class="video all lesbian strapon blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Straplez blonde ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/ec7d43c8-7a1b-40bf-9b1d-653891c744a1/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+             <div class="video all lesbian strapon"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Straplez black ponytail</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/613f41da-712a-4cc2-b213-4b7ca327190b/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+             <div class="video all lesbian redhead brunette bun"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Redhead with brown Bun</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/cc6f2132-a6f6-4ba3-9c7a-5b1657ef4713/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+             <div class="video all lesbian blonde brunette" > <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Slayed Brown with blonde</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/85472c88-e1d5-45dc-a38e-e4c14c0d76e8/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+
+            
+            <div class="video all translesbian blonde brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Busty Trans Janelle Fennec Dominates ts Melanie Brooks</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/84caa3f4-255b-4321-bde8-756b8a375353/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian brunette redhead"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans Redhead Ariel Demure Happily Takes Jade Venus</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/6cc7df8c-1165-4446-b278-b861e37d9214/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde "> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Jade Venus blonde & Ariel Demure Black 69 & Flip Anal Fuck</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/a6cbcdd1-edb1-4686-a690-c92e75b68e6e/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian redhead brunette"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans Redhead Lesbian browns</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/806e775c-7384-4040-92af-377e589b3fb4/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde ponytail"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans blonde Lesbian blonde ponytail </h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/ee208a1d-7ecd-409c-a899-644e26e77c08/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+            <div class="video all translesbian blonde"> <!-- Ajouter la classe correspondant à la catégorie -->
+                <h2>Trans black with Trans blonde</h2>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://app.videas.fr/embed/media/cf955e95-d37c-4b14-a200-edf6c49e9236/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" style="position: absolute; top: 0; left: 0" referrerpolicy="unsafe-url"></iframe></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('search-input');
+            const searchButton = document.getElementById('search-button');
+            const categorySelect = document.getElementById('category-select');
+            const subcategorySelect = document.getElementById('subcategory-select');
+            const videosContainer = document.querySelector('.videos');
+
+            // Fonction pour charger les vidéos en fonction de la recherche
+            function loadVideos() {
+                const searchQuery = searchInput.value.toLowerCase();
+                const selectedCategory = categorySelect.value;
+                const selectedSubcategory = subcategorySelect.value;
+
+                // Afficher ou masquer les vidéos en fonction de la recherche et des filtres de catégorie/sous-catégorie
+                document.querySelectorAll('.video').forEach(video => {
+                    const title = video.querySelector('h2').textContent.toLowerCase();
+                    const category = video.classList.contains(selectedCategory);
+                    const subcategory = video.classList.contains(selectedSubcategory);
+                    const matchesSearch = title.includes(searchQuery);
+
+                    if (matchesSearch && category && subcategory) {
+                        video.style.display = 'block';
+                    } else {
+                        video.style.display = 'none';
+                    }
+                });
+            }
+
+            // Écouteurs d'événements pour la recherche et les filtres de catégorie/sous-catégorie
+            searchInput.addEventListener('input', function () {
+                loadVideos();
+            });
+
+            searchButton.addEventListener('click', function () {
+                loadVideos();
+            });
+
+            categorySelect.addEventListener('change', function () {
+                loadVideos();
+            });
+
+            subcategorySelect.addEventListener('change', function () {
+                loadVideos();
+            });
+
+            // Chargement initial des vidéos
+            loadVideos();
+        });
+    </script>
+    <footer>
+        <p><center>&copy; 2024 Mery Merco</center></p>
+    </footer>
+</body>
+</html>
